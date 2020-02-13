@@ -87,15 +87,20 @@ nav a{
 .maintitle {
 	margin-bottom: 3px;
 	display: inline-block;
-	padding: 8em;
-	margin-left: 7em;
-	
+	padding: 2em;
+	margin-left: 15em;
+			
 }
 .maintitle h1{
 	color:blue;
 	width: 20%;
+	
 		
 }
+h1{
+	font-size:250%;	
+}
+
 .pic1{
 	width: 20%;
 	display: inline-block;
