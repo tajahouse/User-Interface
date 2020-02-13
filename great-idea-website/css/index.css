@@ -49,7 +49,11 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	max-width:100% ;
+	
 }
 
 html, body {
@@ -64,10 +68,68 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-nav{
+nav a{
+	text-decoration: none ;
+	margin-left:6%;
+	display:inline-block;	
+	color: darkgray;
+}
 
-	list-style-type: none;
+.logo{ width: 20%;
+	display:inline-block;
+	padding:1%;	
+}
+
+.container{
+	width: 900px;
+	margin:-60px auto 100px auto;
+}
+.maintitle {
+	margin-bottom: 3px;
+	display: inline-block;
+	padding: 30%;
+	
+}
+.maintitle h1{
 	color:blue;
-	font: 
+	width: 20%;
+		
+}
+.pic1{
+	width: 20%;
+	display: inline-block;
+	}
+.top{
+	text-align: center;
 
 }
+.features{
+  display: inline-block;
+  width:45%
+  }
+.about{
+	display: inline-block;
+	width:45%
+	
+}
+.middle-img{
+	margin-left:10%;
+    margin-right: auto;
+	width: 50em
+
+}
+.bottom{
+	text-align:center;
+}
+.services{
+	width:25%;
+	display: inline-block;}
+.Product{
+	width:25%;
+	display: inline-block;
+}
+.vision{
+	width:25%;
+	display: inline-block;
+}
+.contact
